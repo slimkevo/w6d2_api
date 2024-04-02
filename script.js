@@ -14,6 +14,6 @@ function getRandomCat() {
     const image = document.createElement('img');
     image.src = url;
     image.classList.add('cat-image');
-    document.getElementById('catImages').innerHTML = ''; // Clear existing images
+    document.getElementById('catImages').innerHTML = '';
     document.getElementById('catImages').appendChild(image);
   }
